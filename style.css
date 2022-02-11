@@ -1,0 +1,83 @@
+body {
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+    font-family: "Computer Modern Sans", Georgia, 'Times New Roman', Times, serif;
+    /*color: #4cb69f; mint */
+    /*color: #201d3a; deep purple */
+}
+
+#grid-container {
+    display: grid;
+    max-width: 800px;
+    margin: 50px auto 0 auto;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* #topL {
+} */
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#topR {
+    text-align: right;
+    line-height: 1.25;
+    padding: 5px;
+}
+
+h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+#bottomL {
+    height: 225px;
+}
+
+#bottomL ul {
+    list-style: none;
+    margin: 25px 0;
+    text-align: center;
+    width: 60%;
+}
+
+#bottomL a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+}
+
+#bottomL a.active {
+    background-color: #4cb69f;
+    border-radius: 5px;
+    color: white;
+}
+
+#bottomL a.visited {
+    color: inherit;
+}
+
+#bottomR {
+    border-top: 3px solid #4cb69f;
+    font-size: 15px;
+    line-height: 1.25;
+}
+
+#bottomR p {
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+}
