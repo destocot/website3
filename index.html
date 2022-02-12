@@ -44,11 +44,22 @@
                 <li>Seminar in Secondary Student Teaching</li>
                 <li>Teaching Mathematics in Grades 7-10</li>
             </ul>
+            <hr>
+            <h4>Javascript Tests:</h4>
+            <button id="change-wallpaper" style="padding: 5px; margin: 5px;">Change Wallpaper</button>
+            <button id="change-wallpaper" style="padding: 5px; margin: 5px;">Change Wallpaper</button>
+
         </div>
     </div>
 
 
-    <script src="./script.js"></script>
+    <script>
+        let changeWallpaperButton = document.querySelector("#change-wallpaper");
+        changeWallpaperButton.addEventListener("click", function () {
+            document.body.classList.toggle("changeWallpaper");
+        })
+
+    </script>
 
 </body>
 
